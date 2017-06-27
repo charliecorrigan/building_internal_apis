@@ -32,6 +32,7 @@ group :development, :test do
   gem 'factory_girl_rails'
   gem 'pry'
   gem 'faker'
+  gem 'active_model_serializers', '~> 0.10.0'
 end
 
 group :development do
