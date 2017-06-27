@@ -40,7 +40,7 @@ describe "Items API" do
         post "/api/v1/items", params: item_params
       }.to change { Item.count }.by(1)
 
-      expect(response).to have_http_status(201)
+      expect(response).to be_success
     end
   end
 end
